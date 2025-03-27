@@ -41,3 +41,6 @@ nav {
 .header-links li a:hover {
     color: #006eff;
 }
+.banner-container{
+    margin-top: 15px;
+}
