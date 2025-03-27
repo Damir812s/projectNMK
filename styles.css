@@ -3,20 +3,39 @@
     margin: 0;
     box-sizing: border-box;
 }
-html, body{
+html, body {
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    font-family: Arial, sans-serif;
 }
-header{
+header {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     height: 90px;
     background-color: #ffffff;
-    align-items: center;
+    padding: 0 5%;
+    position: relative;
+}
+.logo {
+    margin-right: auto;
+}
+nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .header-links {
     list-style-type: none;
     display: flex;
-    flex-wrap: nowrap;
+    gap: 40px;
+}
+.header-links li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s;
+    text-transform: uppercase;
+}
+.header-links li a:hover {
+    color: #000747;
 }
