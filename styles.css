@@ -5,7 +5,7 @@
 }
 html, body {
     height: 100%;
-    font-family: Arial, sans-serif;
+    font-family: "Comfortaa", sans-serif;
 }
 header {
     display: flex;
@@ -15,6 +15,7 @@ header {
     padding: 0 5%;
     position: relative;
 }
+
 .logo {
     margin-right: auto;
 }
@@ -22,11 +23,12 @@ nav {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    top: 45px;
 }
 .header-links {
     list-style-type: none;
     display: flex;
-    gap: 40px;
+    gap: 80px;
 }
 .header-links li a {
     text-decoration: none;
@@ -37,5 +39,5 @@ nav {
     text-transform: uppercase;
 }
 .header-links li a:hover {
-    color: #000747;
+    color: #006eff;
 }
