@@ -11,6 +11,12 @@ html, body{
 header{
     display: flex;
     justify-content: space-between;
-    height: 70px;
-    background-color: black;
+    height: 90px;
+    background-color: #ffffff;
+    align-items: center;
+}
+.header-links {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
 }
