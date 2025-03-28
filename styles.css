@@ -77,3 +77,15 @@ nav {
     line-height: 1.6;
     color: #555;
 }
+.services {
+    text-align: center;
+    margin: 50px 0;
+    padding: 0 20px;
+}
+.services h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    color: #000000;
+    position: relative;
+    display: inline-block;
+}
