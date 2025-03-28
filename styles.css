@@ -15,7 +15,6 @@ header {
     padding: 0 5%;
     position: relative;
 }
-
 .logo {
     margin-right: auto;
 }
@@ -120,7 +119,7 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 15px 40px;
-    background-color: #006eff;
+    background-color: #002c67;
     color: white;
     font-size: 30px;
     font-weight: 600;
@@ -130,9 +129,44 @@ nav {
     border: 2px solid #ffffff;
 }
 .banner-button:hover {
-    background-color: #006EFFFF;
+    background-color: #006eff;
     transform: translate(-50%, -50%) scale(1.1);
 }
 .services h4{
     color: #555555;
+}
+.partners-section {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+    margin-top: 50px;
+}
+.partners-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+.partners-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    color: #006eff;
+    margin-bottom: 30px;
+    position: relative;
+}
+.partners-title::after {
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #006eff;
+    margin: 20px auto;
+}
+.partners-p {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
