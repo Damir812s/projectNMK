@@ -89,3 +89,50 @@ nav {
     position: relative;
     display: inline-block;
 }
+.banner2 > img{
+    width: 1500px;
+    height: 300px;
+    border-radius: 25px;
+}
+.banner2-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    margin: 50px 0;
+}
+.banner2 {
+    position: relative;
+    width: 1500px;
+    max-width: 100%;
+    height: 300px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.banner2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner-button {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 40px;
+    background-color: #006eff;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    border: 2px solid #ffffff;
+}
+.banner-button:hover {
+    background-color: #006EFFFF;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+.services h4{
+    color: #555555;
+}
