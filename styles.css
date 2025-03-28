@@ -44,3 +44,36 @@ nav {
 .banner-container{
     margin-top: 15px;
 }
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card {
+    flex: 1 1 300px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px #006eff;
+}
+.card-content {
+    padding: 25px;
+}
+.card h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #006eff;
+}
+.card p {
+    line-height: 1.6;
+    color: #555;
+}
