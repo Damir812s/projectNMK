@@ -137,8 +137,8 @@ nav {
 }
 .partners-section {
     background-color: #f8f9fa;
-    padding: 80px 0;
-    margin-top: 50px;
+    padding: 60px 0;
+    margin-top: 40px;
 }
 .partners-content {
     max-width: 1200px;
@@ -148,8 +148,8 @@ nav {
 }
 .partners-title {
     font-family: "Montserrat", sans-serif;
-    font-size: 30px;
-    color: #006eff;
+    font-size: 35px;
+    color: #000000;
     margin-bottom: 30px;
     position: relative;
 }
@@ -169,4 +169,38 @@ nav {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+}
+footer {
+    background-color: #002c67;
+    color: white;
+    padding: 40px 0 0;
+    font-family: "Comfortaa", sans-serif;
+}
+.footer-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 50px;
+}
+.footer-logo img {
+    width: 150px;
+    height: auto;
+}
+.footer-info h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+.footer-info p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+.footer-copyright {
+    background-color: #001f4d;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    font-size: 15px;
 }
