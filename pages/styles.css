@@ -204,3 +204,116 @@ footer {
     margin-top: 40px;
     font-size: 15px;
 }
+@media (max-width: 1200px) {
+    .header-links {
+        gap: 20px;
+    }
+}
+@media (max-width: 992px) {
+    header {
+        height: auto;
+        padding: 15px 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    nav {
+        position: static;
+        transform: none;
+        margin-top: 15px;
+    }
+    .header-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .banner2 {
+        aspect-ratio: 3/1;
+    }
+}
+@media (max-width: 768px) {
+    .header-links li a {
+        font-size: 12px;
+    }
+    .services h2 {
+        font-size: 28px;
+    }
+    .services h4 {
+        font-size: 14px;
+    }
+    .partners-title {
+        font-size: 24px;
+    }
+    .banner-button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-logo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer-info h3 {
+        font-size: 18px;
+    }
+    .footer-info p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 576px) {
+    .header-links {
+        gap: 10px;
+    }
+    .header-links li a {
+        font-size: 10px;
+        padding: 5px;
+    }
+    .card {
+        min-width: 100%;
+    }
+    .services h2 {
+        font-size: 24px;
+    }
+    .partners-title {
+        font-size: 20px;
+    }
+    .banner2 {
+        aspect-ratio: 2/1;
+        border-radius: 15px;
+    }
+    .banner-button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    .footer-copyright {
+        font-size: 12px;
+    }
+}
+@media (max-width: 480px) {
+    .header-links {
+        gap: 8px;
+    }
+    .header-links li a {
+        font-size: 9px;
+    }
+    .services h2 {
+        font-size: 22px;
+    }
+    .services h4 {
+        font-size: 13px;
+    }
+    .banner2 {
+        aspect-ratio: 1.5/1;
+    }
+    .banner-button {
+        padding: 6px 12px;
+        font-size: 13px;
+    }
+}
